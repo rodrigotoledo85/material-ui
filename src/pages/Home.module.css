@@ -1,0 +1,45 @@
+.appBar {
+  background-color: #512DA8;
+}
+
+.logo {
+  height: 64px;
+  display: none;
+  margin-right: 16px;
+}
+
+.logoSmall {
+  height: 64px;
+  display: flex;
+  margin-right: 16px;
+}
+
+.navBox {
+  flex-grow: 1;
+  display: flex;
+}
+
+.menu {
+  display: block;
+}
+
+.menuItem {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.navButtons {
+  flex-grow: 1;
+  display: flex;
+}
+
+.navButton {
+  margin: 8px;
+  color: white;
+  display: block;
+}
+
+.profileMenu {
+  flex-grow: 0;
+}

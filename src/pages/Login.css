@@ -1,0 +1,39 @@
+.login-container {
+    background-color: #512DA8;
+    height: 100vh;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.login-logo {
+    height: 128px; /* Aumente o tamanho da logo */
+    margin-bottom: 16px;
+}
+
+.login-title {
+    color: white;
+}
+
+.login-input {
+    width: 50% !important;
+}
+
+.login-input-label {
+    color: white !important;
+}
+
+.login-input-field {
+    color: white !important;
+}
+
+.login-button {
+    margin-top: 16px;
+    background-color: #D50000 !important;
+    color: white;
+}
