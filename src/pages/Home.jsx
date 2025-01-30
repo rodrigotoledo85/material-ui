@@ -20,7 +20,7 @@ const Home = () => {
           <Box display="flex" justifyContent="space-between" alignItems="center">
             <Typography variant="h6">Saldo</Typography>
             <IconButton onClick={handleToggleBalance}>
-              {saldo ? <VisibilityOff /> : <Visibility />}
+              {saldo ? <Visibility /> : <VisibilityOff />}
             </IconButton>
           </Box>
           {saldo ? (

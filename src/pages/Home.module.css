@@ -8,7 +8,7 @@
 }
 
 .header {
-  display: flexb;
+  display: flexbox;
   justify-content: start;
   align-items: center;
   width: 100%;
@@ -16,6 +16,5 @@
 
 .card {
   margin-top: 2rem;
-  width: 10%;
-  min-width: 30px; /* Defina a largura mínima do card */
+  max-width: 30%;
 }
