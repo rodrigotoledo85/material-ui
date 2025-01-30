@@ -14,7 +14,7 @@ const Login = () => {
     };
 
     return (
-        <Container maxWidth="xl" className="login-container">
+        <Container maxWidth={false} className="login-container">
             <Box className="login-box">
                 <Box
                     component="img"
@@ -48,13 +48,23 @@ const Login = () => {
                     InputLabelProps={{ className: 'login-input-label' }}
                     InputProps={{ className: 'login-input-field' }}
                 />
-                <Button 
-                    variant="contained" 
-                    color="primary"
-                    href="/home"
-                >
-                    Entrar
-                </Button>
+                <Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 3 }}>
+                    <Button
+                        variant="contained"
+                        color="primary"
+                        href="/home"
+                        sx={{ mr: 2 }}
+                    >
+                        Entrar
+                    </Button>
+                    <Button
+                        variant="contained"
+                        color="success"
+                        href="/signup"
+                    >
+                        Cadastrar
+                    </Button>
+                </Box>
             </Box>
         </Container>
     );

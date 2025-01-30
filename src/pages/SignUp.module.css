@@ -1,0 +1,21 @@
+.container {
+  background-color: #512DA8;
+  padding: 20px;
+  border-radius: 8px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+}
+
+.input-label {
+    color: white !important;
+}
+
+.input-field {
+    color: white !important;
+}

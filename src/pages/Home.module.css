@@ -1,45 +1,21 @@
-.appBar {
-  background-color: #512DA8;
+.container {
+  height: 100vh;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: #F5F5F5;
 }
 
-.logo {
-  height: 64px;
-  display: none;
-  margin-right: 16px;
+.header {
+  display: flexb;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
 }
 
-.logoSmall {
-  height: 64px;
-  display: flex;
-  margin-right: 16px;
-}
-
-.navBox {
-  flex-grow: 1;
-  display: flex;
-}
-
-.menu {
-  display: block;
-}
-
-.menuItem {
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
-}
-
-.navButtons {
-  flex-grow: 1;
-  display: flex;
-}
-
-.navButton {
-  margin: 8px;
-  color: white;
-  display: block;
-}
-
-.profileMenu {
-  flex-grow: 0;
+.card {
+  margin-top: 2rem;
+  width: 10%;
+  min-width: 30px; /* Defina a largura mínima do card */
 }
